@@ -3,7 +3,7 @@
 %define		minor	0
 
 Summary:	Domain name server and a client resolver library
-Summary(pl.UTF-8):   Serwer nazw oraz biblioteka kliencka rozwiązująca nazwy
+Summary(pl.UTF-8):	Serwer nazw oraz biblioteka kliencka rozwiązująca nazwy
 Name:		python-%{module}
 Version:	%{major}.%{minor}
 Release:	1
