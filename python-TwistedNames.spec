@@ -3,7 +3,7 @@
 %define		minor	0
 
 Summary:	Domain name server and a client resolver library
-Summary(pl):	Serwer nazw oraz biblioteka kliencka rozwi±zuj±ca nazwy
+Summary(pl.UTF-8):   Serwer nazw oraz biblioteka kliencka rozwiÄ…zujÄ…ca nazwy
 Name:		python-%{module}
 Version:	%{major}.%{minor}
 Release:	1
@@ -31,17 +31,17 @@ all commonly used record types as well as a replacement for the
 blocking gethostbyname() function provided by the Python stdlib socket
 module.
 
-%description -l pl
+%description -l pl.UTF-8
 Twisted Names to serwer nazw (DNS) oraz biblioteka kliencka
-rozwi±zuj±ca nazwy (resolver). Twisted Names "z pude³ka" zawiera
-serwer nazw potrafi±cy czytaæ wiêkszo¶æ plików stref w sk³adni BIND-a,
-a tak¿e prostym formacie opartym o Pythona. Twisted Names mo¿e dzia³aæ
-jako serwer autorytatywny, wykonywaæ transfery stref z serwera
-g³ównego aby dzia³aæ jako serwer zapasowy, dzia³aæ jako serwer
-buforuj±cy (cache) lub w dowolnej kombinacji tych funkcji. Biblioteka
-kliencka Twisted Names udostêpnia funkcje do odpytywania serwera o
-wszystkie powszechnie u¿ywane rodzaje rekordów, a tak¿e zamiennik
-blokujacej funkcji gethostbyname() udostêpnianej przez modu³
+rozwiÄ…zujÄ…ca nazwy (resolver). Twisted Names "z pudeÅ‚ka" zawiera
+serwer nazw potrafiÄ…cy czytaÄ‡ wiÄ™kszoÅ›Ä‡ plikÃ³w stref w skÅ‚adni BIND-a,
+a takÅ¼e prostym formacie opartym o Pythona. Twisted Names moÅ¼e dziaÅ‚aÄ‡
+jako serwer autorytatywny, wykonywaÄ‡ transfery stref z serwera
+gÅ‚Ã³wnego aby dziaÅ‚aÄ‡ jako serwer zapasowy, dziaÅ‚aÄ‡ jako serwer
+buforujÄ…cy (cache) lub w dowolnej kombinacji tych funkcji. Biblioteka
+kliencka Twisted Names udostÄ™pnia funkcje do odpytywania serwera o
+wszystkie powszechnie uÅ¼ywane rodzaje rekordÃ³w, a takÅ¼e zamiennik
+blokujacej funkcji gethostbyname() udostÄ™pnianej przez moduÅ‚
 biblioteki standardowej Pythona socket.
 
 %prep
