@@ -6,7 +6,7 @@ Summary:	Domain name server and a client resolver library
 Summary(pl.UTF-8):	Serwer nazw oraz biblioteka kliencka rozwiązująca nazwy
 Name:		python-%{module}
 Version:	%{major}.%{minor}
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 Source0:	http://tmrc.mit.edu/mirror/twisted/Names/%{major}/%{module}-%{version}.tar.bz2
@@ -52,9 +52,8 @@ python setup.py build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 python setup.py install \
-	--install-purelib=%{py_sitedir} \
+	--install-purelib=%{py_sitescriptdir} \
 	--root=$RPM_BUILD_ROOT \
 	--optimize=2
 
@@ -66,6 +65,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc LICENSE NEWS README
-%{py_sitedir}/*.egg-info
-%{py_sitedir}/twisted/names
-%{py_sitedir}/twisted/plugins/*
+%{py_sitescriptdir}/*.egg-info
+%{py_sitescriptdir}/twisted/names
+%{py_sitescriptdir}/twisted/plugins/*
