@@ -6,7 +6,7 @@ Summary:	Domain name server and a client resolver library
 Summary(pl.UTF-8):	Serwer nazw oraz biblioteka kliencka rozwiązująca nazwy
 Name:		python-%{module}
 Version:	%{major}.%{minor}
-Release:	3
+Release:	4
 License:	MIT
 Group:		Libraries/Python
 Source0:	http://tmrc.mit.edu/mirror/twisted/Names/%{major}/%{module}-%{version}.tar.bz2
@@ -16,7 +16,6 @@ BuildRequires:	ZopeInterface
 BuildRequires:	python-TwistedCore >= 2.4.0
 BuildRequires:	python-devel >= 2.2
 Requires:	python-TwistedCore >= 2.4.0
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
