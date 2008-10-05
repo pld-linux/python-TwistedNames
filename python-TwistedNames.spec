@@ -1,17 +1,17 @@
 %define 	module	TwistedNames
-%define		major	8.0
+%define		major	8.1
 %define		minor	0
 
 Summary:	Domain name server and a client resolver library
 Summary(pl.UTF-8):	Serwer nazw oraz biblioteka kliencka rozwiązująca nazwy
 Name:		python-%{module}
 Version:	%{major}.%{minor}
-Release:	2
+Release:	1
 License:	MIT
 Group:		Libraries/Python
 Source0:	http://tmrc.mit.edu/mirror/twisted/Names/%{major}/%{module}-%{version}.tar.bz2
-# Source0-md5:	09533501b9e1ae02c8a969a289df2d80
-URL:		http://twistedmatrix.com/projects/web/
+# Source0-md5:	e5f49fc23bef015484dbd025bf835611
+URL:		http://twistedmatrix.com/trac/wiki/TwistedNames
 BuildRequires:	ZopeInterface
 BuildRequires:	python-TwistedCore >= 2.4.0
 BuildRequires:	python-devel >= 2.2
