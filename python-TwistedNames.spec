@@ -15,6 +15,7 @@ URL:		http://twistedmatrix.com/trac/wiki/TwistedNames
 BuildRequires:	ZopeInterface
 BuildRequires:	python-TwistedCore >= 2.4.0
 BuildRequires:	python-devel >= 2.2
+BuildRequires:	rpm-pythonprov
 Requires:	python-TwistedCore >= 2.4.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
