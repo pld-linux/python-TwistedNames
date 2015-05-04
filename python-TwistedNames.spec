@@ -6,7 +6,7 @@ Summary:	Domain name server and a client resolver library
 Summary(pl.UTF-8):	Serwer nazw oraz biblioteka kliencka rozwiązująca nazwy
 Name:		python-%{module}
 Version:	%{major}.%{minor}
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 Source0:	http://twistedmatrix.com/Releases/Names/%{major}/%{module}-%{version}.tar.bz2
