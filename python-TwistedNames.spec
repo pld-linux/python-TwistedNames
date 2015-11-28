@@ -48,11 +48,11 @@ biblioteki standardowej Pythona socket.
 %setup -q -n %{module}-%{version}
 
 %build
-python setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-python setup.py install \
+%py_install \
 	--install-purelib=%{py_sitedir} \
 	--root=$RPM_BUILD_ROOT \
 	--optimize=2
