@@ -12,6 +12,7 @@ Group:		Libraries/Python
 Source0:	http://twistedmatrix.com/Releases/Names/%{major}/%{module}-%{version}.tar.bz2
 # Source0-md5:	9264b6f9fc85e1f7ed31d5fd13eeb48a
 URL:		http://twistedmatrix.com/trac/wiki/TwistedNames
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	ZopeInterface
 BuildRequires:	python-TwistedCore >= 2.4.0
 BuildRequires:	python-devel >= 2.2
